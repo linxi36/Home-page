@@ -1,0 +1,136 @@
+body,ul,li,a,p,span{
+     margin:0;
+     padding:0;
+     list-style: none;
+     text-decoration: none;
+}
+html,body{
+    width:100%;
+}
+/* body{
+    background-color:rgba(14, 13, 13, 1);
+} */
+.header{
+    position: relative;
+    width:100%;
+    height:610px;
+    background-image:url("./img/8.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.header .header-text{
+    position: absolute;
+    width:300px;
+    height:200px;
+    text-align: center;
+    margin-top:-100px;
+    margin-left:-100px;
+    top:50%;
+    left:50%;
+}
+.header-select{
+    position: absolute;
+    left:50%;
+    margin-left:-40px;
+    top:50%;
+    margin-top:120px;
+    text-align: center;
+    line-height:54px;
+    height:54px;
+    width:170px;
+    background-color:rgba(243, 201, 87, 0.3);
+    border-radius:20px;
+}
+.header-select a{
+    font-size:18px;
+    color:#fff;
+    text-decoration: none;
+}
+nav{
+    height:40px;
+}
+.navbar-nav > li{
+    width:130px;
+    margin-left:20px;
+}
+.navbar-nav > li:hover .select{
+       display:block;
+       cursor: pointer;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.nav .select{
+    display: none;
+    width:120px;
+    /* background:rgba(252, 245, 245, 0.5); */
+}
+.nav .select li{
+    height:30px;
+    padding:5px;
+}
+.nav .select .select-item{
+    color:#fff;    
+}
+.nav .select li a{
+    color:rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+.text{
+    width:100%;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: center;
+}
+.item-img{
+    width:100%;
+    height:900px;
+}
+.item-img ul{
+    text-align: center;
+    vertical-align: center;
+
+}
+.item-img  li{
+    display: inline-table;
+    width:330px;
+    height:400px;
+    margin-left:20px;
+    margin-top:30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #9d9d9d;
+    overflow: hidden;
+}
+.item-img  li:hover .list-item{
+    display: block;
+}
+.list-img img{
+    width:100%;
+    height:330px;
+}
+.list-img {
+    position: relative;
+}
+.list-item{
+    display: none;
+   position: absolute;
+   width:100%;
+   height:400px;
+   top:0;
+   left:0;
+   background:rgba(173, 171, 171, 0.5)
+}
+.list-item h1{
+    color:rgb(94, 91, 91);
+    line-height:400px;
+}
+.navbar-fixed-top .navbar-collapse{
+    max-height:425px;
+}
+.header-text h1{
+    font-size:50px;
+}
+.header-text p{
+    font-size:18px;
+    margin-left:133px;
+}
